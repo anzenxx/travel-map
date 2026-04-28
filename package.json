@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Atlas Travel desktop app for tracking visited countries and cities",
   "main": "./out/main/index.js",
-  "author": "example.com",
-  "homepage": "https://electron-vite.org",
+  "author": "Artem Silenko",
+  "homepage": "https://github.com/anzenxx/travel-map",
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint --cache .",

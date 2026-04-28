@@ -2,6 +2,8 @@
 
 Atlas Travel is a desktop app for tracking visited countries, cities, trips, notes, photos, and travel goals. It keeps data locally, uses a clean border-only map, and does not require an account or cloud sync.
 
+Created by Artem Silenko.
+
 ## Features
 
 - Mark countries as homeland, resident, visited, or wishlist.
