@@ -258,7 +258,7 @@ export function registerIpcHandlers(ipcMain: IpcMain): void {
           seen.add(key)
           return Number.isFinite(item.lat) && Number.isFinite(item.lng)
         })
-        .map(({ matchRank, ...item }) => item)
+        .map(({ matchRank: _matchRank, ...item }) => item)
     }
   )
 

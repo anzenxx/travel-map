@@ -6,7 +6,13 @@ interface Props {
   maxHeight?: string
 }
 
-export default function OverlayPanel({ title, onClose, children, width = 760, maxHeight = 'calc(100vh - 48px)' }: Props) {
+export default function OverlayPanel({
+  title,
+  onClose,
+  children,
+  width = 760,
+  maxHeight = 'calc(100vh - 48px)'
+}: Props) {
   return (
     <div
       onClick={onClose}
@@ -37,13 +43,15 @@ export default function OverlayPanel({ title, onClose, children, width = 760, ma
           color: 'var(--theme-text)'
         }}
       >
-        <div style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          padding: '18px 20px 14px',
-          borderBottom: '0.5px solid var(--theme-divider)'
-        }}>
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            padding: '18px 20px 14px',
+            borderBottom: '0.5px solid var(--theme-divider)'
+          }}
+        >
           <div style={{ fontSize: 16, fontWeight: 600, color: 'var(--theme-accent-strong)' }}>
             {title}
           </div>
@@ -63,9 +71,7 @@ export default function OverlayPanel({ title, onClose, children, width = 760, ma
           </button>
         </div>
 
-        <div style={{ overflowY: 'auto', padding: '18px 20px 22px' }}>
-          {children}
-        </div>
+        <div style={{ overflowY: 'auto', padding: '18px 20px 22px' }}>{children}</div>
       </div>
     </div>
   )

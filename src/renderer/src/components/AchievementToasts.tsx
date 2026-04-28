@@ -13,17 +13,19 @@ export default function AchievementToasts() {
   const { achievementToasts, removeAchievementToast } = useStore()
 
   return (
-    <div style={{
-      position: 'absolute',
-      top: TITLE_BAR_HEIGHT + 16,
-      right: 18,
-      zIndex: 400,
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'flex-end',
-      gap: 10,
-      pointerEvents: 'none'
-    }}>
+    <div
+      style={{
+        position: 'absolute',
+        top: TITLE_BAR_HEIGHT + 16,
+        right: 18,
+        zIndex: 400,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'flex-end',
+        gap: 10,
+        pointerEvents: 'none'
+      }}
+    >
       {achievementToasts.map((toast) => {
         const achievement = ACHIEVEMENTS.find((item) => item.id === toast.achievementId)
         if (!achievement) return null
@@ -71,39 +73,46 @@ function AchievementToastCard({
   }, [onDone])
 
   return (
-    <div style={{
-      width: 320,
-      maxWidth: 'calc(100vw - 36px)',
-      borderRadius: 18,
-      padding: '14px 16px',
-      background: 'linear-gradient(135deg, color-mix(in srgb, var(--theme-panel) 88%, var(--theme-accent-soft) 12%), var(--theme-paper))',
-      border: '1px solid var(--theme-panel-border)',
-      boxShadow: 'var(--theme-shadow)',
-      color: 'var(--theme-text)',
-      transform: visible ? 'translateY(0) scale(1)' : 'translateY(-12px) scale(0.96)',
-      opacity: visible ? 1 : 0,
-      transition: `opacity ${FADE_MS}ms ease, transform ${FADE_MS}ms ease`
-    }}>
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        gap: 12,
-        marginBottom: 6
-      }}>
-        <div style={{
-          width: 38,
-          height: 38,
-          borderRadius: 12,
-          background: achievementImageSrc ? 'transparent' : 'var(--theme-button-active-bg)',
-          color: 'var(--theme-accent-soft)',
+    <div
+      style={{
+        width: 320,
+        maxWidth: 'calc(100vw - 36px)',
+        borderRadius: 18,
+        padding: '14px 16px',
+        background:
+          'linear-gradient(135deg, color-mix(in srgb, var(--theme-panel) 88%, var(--theme-accent-soft) 12%), var(--theme-paper))',
+        border: '1px solid var(--theme-panel-border)',
+        boxShadow: 'var(--theme-shadow)',
+        color: 'var(--theme-text)',
+        transform: visible ? 'translateY(0) scale(1)' : 'translateY(-12px) scale(0.96)',
+        opacity: visible ? 1 : 0,
+        transition: `opacity ${FADE_MS}ms ease, transform ${FADE_MS}ms ease`
+      }}
+    >
+      <div
+        style={{
           display: 'flex',
           alignItems: 'center',
-          justifyContent: 'center',
-          fontSize: 19,
-          fontWeight: 700,
-          overflow: 'hidden',
-          flexShrink: 0
-        }}>
+          gap: 12,
+          marginBottom: 6
+        }}
+      >
+        <div
+          style={{
+            width: 38,
+            height: 38,
+            borderRadius: 12,
+            background: achievementImageSrc ? 'transparent' : 'var(--theme-button-active-bg)',
+            color: 'var(--theme-accent-soft)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            fontSize: 19,
+            fontWeight: 700,
+            overflow: 'hidden',
+            flexShrink: 0
+          }}
+        >
           {achievementImageSrc ? (
             <img
               src={achievementImageSrc}
@@ -114,13 +123,29 @@ function AchievementToastCard({
                 objectFit: 'cover'
               }}
             />
-          ) : '★'}
+          ) : (
+            '★'
+          )}
         </div>
         <div>
-          <div style={{ fontSize: 11, color: 'var(--theme-text-soft)', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+          <div
+            style={{
+              fontSize: 11,
+              color: 'var(--theme-text-soft)',
+              textTransform: 'uppercase',
+              letterSpacing: '0.08em'
+            }}
+          >
             {title}
           </div>
-          <div style={{ fontSize: 16, fontWeight: 700, color: 'var(--theme-accent-strong)', lineHeight: 1.2 }}>
+          <div
+            style={{
+              fontSize: 16,
+              fontWeight: 700,
+              color: 'var(--theme-accent-strong)',
+              lineHeight: 1.2
+            }}
+          >
             {achievementTitle}
           </div>
         </div>

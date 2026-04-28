@@ -76,8 +76,8 @@ if (process.contextIsolated) {
     console.error(error)
   }
 } else {
-  // @ts-ignore
+  // @ts-ignore fallback for non-isolated Electron context
   window.electron = electronAPI
-  // @ts-ignore
+  // @ts-ignore fallback for non-isolated Electron context
   window.api = api
 }
