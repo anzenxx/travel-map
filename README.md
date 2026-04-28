@@ -4,6 +4,8 @@
 
 # Atlas Travel
 
+[English](README.md) | [Deutsch](README.de.md) | [Русский](README.ru.md)
+
 ![Electron](https://img.shields.io/badge/Electron-39-47848F?logo=electron&logoColor=white)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=20232A)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)
