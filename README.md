@@ -4,7 +4,11 @@
 
 # Atlas Travel
 
-[English](README.md) | [Deutsch](README.de.md) | [Русский](README.ru.md)
+<p align="center">
+  <a href="README.md">English</a> |
+  <a href="README.de.md">Deutsch</a> |
+  <a href="README.ru.md">Русский</a>
+</p>
 
 ![Electron](https://img.shields.io/badge/Electron-39-47848F?logo=electron&logoColor=white)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=20232A)
