@@ -97,9 +97,8 @@ Before publishing changes, run:
 
 ```bash
 npm run typecheck
+npm run lint
 ```
-
-`npm run lint` is configured, but the current codebase still needs lint cleanup before lint can be used as a required CI gate.
 
 ## Repository Notes
 
@@ -109,4 +108,4 @@ npm run typecheck
 
 ## License
 
-No license has been selected yet. Until a license is added, this project is private/unlicensed by default.
+This project is licensed under the MIT License. See [LICENSE.md](LICENSE.md).
