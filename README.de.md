@@ -31,6 +31,32 @@ Erstellt von Artem Silenko.
 - Zwischen Englisch, Deutsch, Russisch und Ukrainisch wechseln.
 - Eine lokale SQLite-Datenbank über den Electron-Main-Prozess verwenden.
 
+## Screenshots
+
+### Interaktive Weltkarte
+
+![Interaktive Weltkarte](docs/screenshots/main-map.png)
+
+### Länderdetails
+
+![Länderdetails](docs/screenshots/country-detail.png)
+
+### Stadtsuche
+
+![Stadtsuche](docs/screenshots/city-adding.png)
+
+### Statistiken
+
+![Statistik-Dashboard](docs/screenshots/statistics.png)
+
+### Länder und Suche
+
+![Länderansicht](docs/screenshots/countries.png)
+
+### Achievements
+
+![Achievements-Ansicht](docs/screenshots/achievements.png)
+
 ## Tech Stack
 
 | Ebene | Technologie |

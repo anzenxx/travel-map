@@ -31,6 +31,32 @@ Atlas Travel — десктопное приложение для отслежи
 - Переключать интерфейс между английским, немецким, русским и украинским языками.
 - Использовать локальную SQLite-базу через Electron main process.
 
+## Скриншоты
+
+### Интерактивная карта мира
+
+![Интерактивная карта мира](docs/screenshots/main-map.png)
+
+### Детали страны
+
+![Детали страны](docs/screenshots/country-detail.png)
+
+### Поиск города
+
+![Поиск города](docs/screenshots/city-adding.png)
+
+### Статистика
+
+![Статистика](docs/screenshots/statistics.png)
+
+### Страны и поиск
+
+![Панель стран](docs/screenshots/countries.png)
+
+### Достижения
+
+![Панель достижений](docs/screenshots/achievements.png)
+
 ## Стек
 
 | Слой | Технологии |

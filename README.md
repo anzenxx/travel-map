@@ -31,6 +31,32 @@ Created by Artem Silenko.
 - Switch between English, German, Russian, and Ukrainian.
 - Use a local SQLite database through the Electron main process.
 
+## Screenshots
+
+### Interactive World Map
+
+![Interactive world map](docs/screenshots/main-map.png)
+
+### Country Details
+
+![Country details](docs/screenshots/country-detail.png)
+
+### City Search
+
+![City search](docs/screenshots/city-adding.png)
+
+### Statistics
+
+![Statistics dashboard](docs/screenshots/statistics.png)
+
+### Countries and Search
+
+![Countries panel](docs/screenshots/countries.png)
+
+### Achievements
+
+![Achievements panel](docs/screenshots/achievements.png)
+
 ## Tech Stack
 
 | Layer | Technology |
