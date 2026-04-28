@@ -1,4 +1,15 @@
+<p align="center">
+  <img src="docs/assets/atlas-travel-logo.png" alt="Atlas Travel logo" width="700">
+</p>
+
 # Atlas Travel
+
+![Electron](https://img.shields.io/badge/Electron-39-47848F?logo=electron&logoColor=white)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=20232A)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-better--sqlite3-003B57?logo=sqlite&logoColor=white)
+![D3](https://img.shields.io/badge/D3.js-7-F9A03C?logo=d3&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-7CB342)
 
 Atlas Travel is a desktop app for tracking visited countries, cities, trips, notes, photos, and travel goals. It keeps data locally, uses a clean border-only map, and does not require an account or cloud sync.
 
