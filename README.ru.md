@@ -15,6 +15,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-better--sqlite3-003B57?logo=sqlite&logoColor=white)
 ![D3](https://img.shields.io/badge/D3.js-7-F9A03C?logo=d3&logoColor=white)
+![CI](https://github.com/anzenxx/travel-map/actions/workflows/ci.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-7CB342)
 
 Atlas Travel — десктопное приложение для отслеживания посещенных стран, городов, поездок, заметок, фотографий и travel-целей. Данные хранятся локально, карта сделана в чистом стиле с границами без лишних деталей, аккаунт и облачная синхронизация не требуются.
@@ -81,6 +82,8 @@ npx electron-builder install-app-deps
 ```
 
 ## Запуск
+
+Последний Windows installer можно скачать в [GitHub Releases](https://github.com/anzenxx/travel-map/releases).
 
 ```bash
 npm install
