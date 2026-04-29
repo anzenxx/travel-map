@@ -22,6 +22,14 @@ Atlas Travel is a desktop app for tracking visited countries, cities, trips, not
 
 Created by Artem Silenko.
 
+## Highlights
+
+- Interactive D3 world map with zoom, pan, labels, status colors, and country/city search.
+- Electron architecture with separated main, preload, and renderer layers connected through typed IPC.
+- Local SQLite persistence for travel data, visits, photos, tags, settings, and achievement progress.
+- Multilingual UI powered by i18next with English, German, Russian, and Ukrainian translations.
+- Portfolio-ready features: statistics, timeline, achievements, local-first privacy, and PNG map export.
+
 ## Features
 
 - Mark countries as homeland, resident, visited, or wishlist.

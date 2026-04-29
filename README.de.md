@@ -22,6 +22,14 @@ Atlas Travel ist eine Desktop-App zum Erfassen besuchter Länder, Städte, Reise
 
 Erstellt von Artem Silenko.
 
+## Highlights
+
+- Interaktive D3-Weltkarte mit Zoom, Pan, Labels, Statusfarben und Länder-/Städtesuche.
+- Electron-Architektur mit getrennten main-, preload- und renderer-Schichten, verbunden über typisiertes IPC.
+- Lokale SQLite-Persistenz für Reisedaten, Besuche, Fotos, Tags, Einstellungen und Achievement-Fortschritt.
+- Mehrsprachige UI mit i18next: Englisch, Deutsch, Russisch und Ukrainisch.
+- Portfolio-taugliche Funktionen: Statistiken, Timeline, Achievements, Local-first Privacy und PNG-Kartenexport.
+
 ## Funktionen
 
 - Länder als homeland, resident, visited oder wishlist markieren.
