@@ -15,7 +15,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-better--sqlite3-003B57?logo=sqlite&logoColor=white)
 ![D3](https://img.shields.io/badge/D3.js-7-F9A03C?logo=d3&logoColor=white)
-![CI](https://github.com/anzenxx/travel-map/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/anzenxx/Atlas-Travel/actions/workflows/ci.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-7CB342)
 
 Atlas Travel is a desktop app for tracking visited countries, cities, trips, notes, photos, and travel goals. It keeps data locally, uses a clean border-only map, and does not require an account or cloud sync.
@@ -91,7 +91,7 @@ npx electron-builder install-app-deps
 
 ## Getting Started
 
-Download the latest Windows installer from [GitHub Releases](https://github.com/anzenxx/travel-map/releases).
+Download the latest Windows installer from [GitHub Releases](https://github.com/anzenxx/Atlas-Travel/releases).
 
 ```bash
 npm install

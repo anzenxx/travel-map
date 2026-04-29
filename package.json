@@ -4,7 +4,7 @@
   "description": "Atlas Travel desktop app for tracking visited countries and cities",
   "main": "./out/main/index.js",
   "author": "Artem Silenko",
-  "homepage": "https://github.com/anzenxx/travel-map",
+  "homepage": "https://github.com/anzenxx/Atlas-Travel",
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint --cache .",
