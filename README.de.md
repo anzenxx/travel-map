@@ -28,7 +28,7 @@ Erstellt von Artem Silenko.
 - Electron-Architektur mit getrennten main-, preload- und renderer-Schichten, verbunden über typisiertes IPC.
 - Lokale SQLite-Persistenz für Reisedaten, Besuche, Fotos, Tags, Einstellungen und Achievement-Fortschritt.
 - Mehrsprachige UI mit i18next: Englisch, Deutsch, Russisch und Ukrainisch.
-- Portfolio-taugliche Funktionen: Statistiken, Timeline, Achievements, Local-first Privacy und PNG-Kartenexport.
+- Vollständiger Travel-Tracking-Workflow mit Statistiken, Timeline, Achievements, Local-first Privacy und PNG-Kartenexport.
 
 ## Funktionen
 

@@ -28,7 +28,7 @@ Created by Artem Silenko.
 - Electron architecture with separated main, preload, and renderer layers connected through typed IPC.
 - Local SQLite persistence for travel data, visits, photos, tags, settings, and achievement progress.
 - Multilingual UI powered by i18next with English, German, Russian, and Ukrainian translations.
-- Portfolio-ready features: statistics, timeline, achievements, local-first privacy, and PNG map export.
+- Complete travel-tracking workflow with statistics, timeline, achievements, local-first privacy, and PNG map export.
 
 ## Features
 
